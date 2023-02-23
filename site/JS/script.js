@@ -1,24 +1,28 @@
+var dOB = 0;
+var fName = "";
+var lName = "";
 
 function saveDat(){
-    var dOB = document.getElementById("userInput").value;
+    let dOB = prompt();
     return dOB;
 }
 
 function saveFN(){
-    var fName = document.getElementById("userInput").value;
+    let fName = prompt();
     return fName;
 }
 
 function saveLN(){
-    var lName = document.getElementById("userInput").value;
+    let lName = prompt();
     return lName;
 }
 
+
 function submit(){
-    dateOfBirth = saveDat();
-    fName = saveFN(); 
-    fName = saveLN();
-    alert("You are",fName," ",lName," born on",dateOfBirth)
+    let dateOfBirth = dOB;
+    let fName = fName; 
+    let fName = lName;
+    alert("You are" + fName + " " + lName + " born on" + dateOfBirth);
 }
 
 
