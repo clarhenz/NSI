@@ -1,28 +1,29 @@
-var dOB = 0;
-var fName = "";
-var lName = "";
 
-function saveDat(){
-    let dOB = prompt();
-    return dOB;
+function chgC(){
+    document.querySelector("element_1").style.backgroundColor = "green";
+    
 }
 
-function saveFN(){
-    let fName = prompt();
-    return fName;
+function chgC2(){
+    document.querySelector("element_1").style.backgroundColor = "yellow"
 }
 
-function saveLN(){
-    let lName = prompt();
-    return lName;
+
+function Dat(){
+    alert("Mettez votre Date de naissance");
 }
 
+function FN(){
+    alert("Mettez votre Prénom");
+}
+
+function LN(){
+    alert("Mettez votre Nom");
+}
 
 function submit(){
-    let dateOfBirth = dOB;
-    let fName = fName; 
-    let fName = lName;
-    alert("You are" + fName + " " + lName + " born on" + dateOfBirth);
+
+    alert("Bonjour!");
 }
 
 
