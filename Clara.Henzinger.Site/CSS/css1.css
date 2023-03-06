@@ -1,0 +1,89 @@
+body {
+    background-image: url("/./images/background.jpg");
+    background-color: rgb(160, 106, 31);
+}
+
+h1{
+    text-align: center;
+    color: rgb(87, 122, 97);
+}
+h2{
+    font-style: italic;
+    color: rgb(117, 35, 35);
+}
+
+#element{
+    position:relative;
+    width:70%;
+    height: 30%;
+    left: 15%;
+    text-align: center;
+    border: 1px solid rgb(154, 150, 132);
+    background-color: rgb(133, 66, 66);
+    
+}
+
+#element:hover {
+    background-color: rgb(123, 170, 116);
+    width:90%;
+    height: 40%;
+    left: 5%;
+    text-align: center;
+  }
+
+#element_1{
+    position:absolute;
+    margin-top: 5%;
+
+    left: 5%;
+    right: 5%;
+
+    width:90%;
+    height: 60%;
+    border: 1px solid black;
+    background-color: rgb(77, 101, 108);
+}
+
+
+#row{
+    text-align: center;
+    align-items: center;
+    align-items: stretch;
+    
+}
+
+
+.white{
+    background-color: rgb(253, 253, 253);;
+}
+
+.inside_boxes{
+    position:relative;
+    display: flex;
+
+
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 3%;
+    align-self: center;
+
+    border: 1 pix solid rgb(0, 0, 0);
+    background-color: rgb(253, 253, 253);
+}
+.inside_boxes:hover {
+    background-color: rgb(225, 221, 95);
+  }
+
+#texte_secret{
+    color: rgb(77, 101, 108);
+    position:relative;
+    align-self: center;
+}
+#texte_secret2{
+    color: rgb(77, 101, 108);
+    position:relative;
+    align-self: center;
+}
+#texte_secret2:hover{
+    color: rgb(117, 35, 35);
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="CSS/css1.css">
+        
+    </head>
+    <body>
+        
+
+        <img src="images/logo.png" alt="logo" title="logo" height = 5% width = 5%> 
+        <h1>Login</h1>
+        <div class = "flexcontainer">
+
+            <div id = "element">
+                <p class= "para">Connectez-vous!</p>
+            </div>
+            
+            
+
+            <div id = "element_1">
+                <div class = "row">
+                    <div class = "inside_boxes" id = "dob" onclick ="chgC()">
+                        <label for="dateofbirth"> Date de naissance: </label>
+                        <input type="date" id="dob" value ="dob" onclick = "saveDat()">
+                    </div>
+
+                    <div class = "inside_boxes" id = "FirstName" >
+                        <label for="fname">    > </label>
+                        <input type="name" name="Prénom" onclick="FN()" placeholder="Prénom" ><br>
+                    </div>
+
+                    <div class = "inside_boxes" id = "LastName">
+                        <label for="fname">    > </label>
+                        <input type="name" name="Nom" onclick = "LN()" placeholder="Nom" ><br>
+                    </div>
+
+                    <div class = "inside_boxes" id = "Submit">
+                        <button onclick = "submit()" value = "submit">SUBMIT</button>
+                    </div>
+
+                    <h1 id="texte_secret">Bonjour!</h1>
+                    <h1 id="texte_secret2">Connection...</h1>
+                </div>
+
+
+            </div>
+        </div>
+        
+    </body>
+    <script src ="JS/script.js"></script>
+
+</html>
