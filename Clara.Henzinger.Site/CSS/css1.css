@@ -1,11 +1,17 @@
 body {
-    background-image: url("/./images/background.jpg");
     background-color: rgb(160, 106, 31);
 }
 
-h1{
-    text-align: center;
+#titre{
     color: rgb(87, 122, 97);
+    position: absolute;
+    text-align: center;
+    left: 48%;
+    top: 2%;
+}
+h1{
+    color: rgb(87, 122, 97);
+    text-align: center;
 }
 h2{
     font-style: italic;
@@ -33,13 +39,13 @@ h2{
 
 #element_1{
     position:absolute;
-    margin-top: 5%;
+    margin-top: 2%;
 
     left: 5%;
     right: 5%;
 
     width:90%;
-    height: 60%;
+    height: 75%;
     border: 1px solid black;
     background-color: rgb(77, 101, 108);
 }
@@ -86,4 +92,17 @@ h2{
 }
 #texte_secret2:hover{
     color: rgb(117, 35, 35);
+}
+
+#images{
+    position: relative;
+    margin-top: 1%;
+    left: 40%;
+}
+
+.img {
+    width: 7%;
+    height: 7%;
+    align-self: center;
+    display: none;
 }

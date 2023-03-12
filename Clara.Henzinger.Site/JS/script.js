@@ -39,9 +39,9 @@ function LN(){
     alert("Mettez votre Nom");
 }
 
+
+
 //bouton 'submit':
-
-
 
 function submit(){
     const bigbox = document.getElementById("element_1");

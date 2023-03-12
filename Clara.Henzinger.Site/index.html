@@ -11,7 +11,7 @@
         
 
         <img src="images/logo.png" alt="logo" title="logo" height = 5% width = 5%> 
-        <h1>Login</h1>
+        <h1 id = titre>Login</h1>
         <div class = "flexcontainer">
 
             <div id = "element">
@@ -28,13 +28,28 @@
                     </div>
 
                     <div class = "inside_boxes" id = "FirstName" >
-                        <label for="fname">    > </label>
+                        <label for="fname">- </label>
                         <input type="name" name="Prénom" onclick="FN()" placeholder="Prénom" ><br>
                     </div>
 
                     <div class = "inside_boxes" id = "LastName">
-                        <label for="fname">    > </label>
+                        <label for="fname">-  </label>
                         <input type="name" name="Nom" onclick = "LN()" placeholder="Nom" ><br>
+                    </div>
+                    <div class = "inside_boxes" id = "Avatar">
+                        <label>
+                            <label>
+                                <input type="radio" name="image" value="image1" onclick="document.getElementById('img1').style.display = 'block'; document.getElementById('img2').style.display = 'none';">
+                                Femme
+                            </label>
+                            <label>
+                                <input type="radio" name="image" value="image2" onclick="document.getElementById('img1').style.display = 'none'; document.getElementById('img2').style.display = 'block';">
+                                Homme
+                            </label>
+                    </div>
+                    <div id = images >
+                        <img class = "img" id="img1" src="images/avatar-woman.png">
+                        <img class = "img" id="img2" src="images/avatar-man.png">
                     </div>
 
                     <div class = "inside_boxes" id = "Submit">
